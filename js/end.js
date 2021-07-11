@@ -11,7 +11,6 @@ if(localStorage.getItem('highestScores') === null){
 else{
     highestScores = JSON.parse(localStorage.getItem('highestScores'));
 }
-//localStorage.setItem('highestScore',JSON.stringify([]));
 
 finalScore.innerText = mostRecentScore; 
 /*username.addEventListener('keyup',(e)=>{
