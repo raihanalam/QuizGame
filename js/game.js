@@ -53,7 +53,7 @@ function startGame(){
 getNewQuestion = ()=>{
     if(availableQuestions.length == 0 || questionCounter>max_question){
         localStorage.setItem("mostRecentScore",score);
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
 
     questionCounter++;
