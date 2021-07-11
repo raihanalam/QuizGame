@@ -22,7 +22,7 @@ saveHighScore = (e)=>{
     console.log('Saved');
     e.preventDefault();
     const score ={
-        score: Math.floor(Math.random()*100),
+        score: mostRecentScore,
         name: username.value
     };
     highestScores.push(score);
